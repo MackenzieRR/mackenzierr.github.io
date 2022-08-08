@@ -11,6 +11,7 @@ p {
 }
 .center {
     margin: auto;
+    min-width: 700px;
     width: 50%;
     border: 0px solid #999999;
     padding: 0px;
