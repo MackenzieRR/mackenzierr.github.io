@@ -1,10 +1,10 @@
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #ffffff;
+    background-color: #F2F2F2;
 }
 
 p {
-    color: #6D6859;
+    color: #403E38;
     padding: 10px;
     padding-top: 0px;
     padding-right: 15px;
@@ -36,7 +36,7 @@ p {
 }
 
   .home {
-      color:#736F63;
+      color:#403E38;
       font-size:15px;
       text-align: top;
       padding-left: 15px;
@@ -59,12 +59,12 @@ p {
   }
 
       a:link{
-          color:#736F63;
+          color:#403E38;
           text-decoration:none;
       }
 
       a:visited{
-          color:#736F63;
+          color:#403E38;
       }
 
       a:hover{
@@ -79,7 +79,7 @@ p {
   
       
       h1 {
-          color:#261908;
+          color:#0D0B0C;
           font-size:30px;
           padding-top: 5%;
           line-height: 1.2px;
@@ -88,7 +88,7 @@ p {
       }
 
       .filmtitle {
-        color:#736F63;
+        color:#403E38;
         font-size:30px;
         padding-top: 0%;
         line-height: 1.2px;
@@ -97,18 +97,33 @@ p {
     }
 
       h2 {
-          color:#736F63;
+          color:#403E38;
           font-size:15px;
           padding-bottom: 1px;
           line-height: 1.2px;
           font-weight: lighter;
       }
 
+      footer {
+        font-weight: lighter;
+        text-align: center;
+        padding: 7%;
+      }
+
      h3 {
         font-weight: lighter;
         font-size:15px;
-        line-height: 12px;
+        line-height: 15px;
         padding-bottom: 0px;
-        color:#736F63;
+        color:#403E38;
+        text-align: center;
+      }
+
+      h4 {
+        font-weight: lighter;
+        font-size:30px;
+        line-height: 15px;
+        padding-bottom: 0px;
+        color:#403E38;
         text-align: center;
       }
