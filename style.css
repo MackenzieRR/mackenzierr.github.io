@@ -1,14 +1,36 @@
+:root {
+    --black: #0d0b0c;
+    --white: #ffffff;
+    --red: #A61C1C;
+  }
+
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #ffffff;
+    background-color: var(--white);
+}
+
+.credits {
+    text-align: center;
+    font-size: 15px;
+    text-align: top;
 }
 
 p {
-    color: #0D0B0C;
+    color: var(--black);
     padding-top: 0px;
     padding: 10px;
     padding-right: 15px;
 }
+
+.p2{
+    color:#0D0B0C;
+    font-size:15px;
+    padding-top: 0px;
+    text-align: top;
+    padding-left: 18px;
+    text-align: justify;}
+
+
 .center {
     margin: auto;
     min-width: 700px;
@@ -21,26 +43,49 @@ p {
       vertical-align: top;
       padding: 0px;
       border-collapse: collapse;
-      border: 0px dashed #BFB8AA;
+ 
       }
 
   tr, td {
         padding-left: 0px;
+    
 
   }
 
+  .name {
+    color: var(--white);
+    background-color: var(--red);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .quote {
+    margin:auto;
+    min-width: 90%;
+    width: 50%;
+    padding: 0px;
+
+    font-style:italic; 
+    color: var(--black);
+    font-weight: lighter;
+    text-align: justify;
+    
+  }
 
 
   .film
   { text-align: justify;
     border-collapse: collapse;
-    color: #6D6859;}
+    color: var(--black);
+    border: 0px dashed var(--red);
 
+}
 
 .correspondences {
 
     margin: auto;
-    border: 1px dashed #FB574B;
+    border: 1px dashed var(--red);
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -48,7 +93,7 @@ p {
         
 
   .home {
-      color:#0D0B0C;
+      color:var(--black);
       font-size:20px;
       padding-top: 0px;
       text-align: top;
@@ -57,7 +102,7 @@ p {
   }
 
   .bio {
-    color:#0D0B0C;
+    color:var(--black);
     font-size:20px;
     padding-top: 0px;
     text-align: top;
@@ -81,27 +126,27 @@ p {
  
  
       a:link{
-          color:#0D0B0C;
+          color:var(--black);
           text-decoration:none;
       }
 
       a:visited{
-          color:#0D0B0C;
+          color:var(--black);
       }
 
       a:hover{
-          color:#FB574B;
+          color:var(--red);
       }
       
       a:active {
-          color: #FB574B;
+          color: var(--red);
 
 
       }
 
       
       h1 {
-          color:#8F8411;
+          color: var(--red);
           font-size:36.8px;
           padding-top: 5%;
           padding-bottom: 0px;
@@ -110,20 +155,18 @@ p {
           font-kerning: auto;
       }
 
-
-
       .filmtitle {
-        color:#0D0B0C;
+        color:var(--black);
         font-size:36.5px;
         padding-top: 5%;
-        line-height: 00px;
+        line-height: 36px;
         font-weight: lighter;
         font-kerning: auto;
         text-align: center;
     }
 
       h2 {
-          color:#0D0B0C;
+          color: var(--black);
           font-size:17px;
           padding-bottom: 1px;
         padding-left: 10px;
@@ -143,7 +186,7 @@ p {
         font-size:15px;
         line-height: 15px;
         padding-bottom: 0px;
-        color:#0D0B0C;
+        color:var(--black);
         text-align: center;
       }
 
@@ -152,6 +195,6 @@ p {
         font-size:30px;
         line-height: 0px;
         padding: 0px;
-        color:#0D0B0C;
+        color:var(--black);
         text-align: center;
       }
