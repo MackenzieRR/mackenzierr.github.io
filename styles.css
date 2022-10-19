@@ -80,14 +80,11 @@ table, tbody {
   text-align: justify;
 }
 
-
-
-
 .film {
 
   margin: auto;
-    min-width: 500px;
-    width: 75vw;
+
+    width: 85vw;
     border: 0px solid #999999;
     padding: 0px;
     float: center;
