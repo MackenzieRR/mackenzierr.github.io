@@ -2,6 +2,8 @@
 
 */
 
+
+
 :root {
   --black: #0d0b0c;
   --backgound_2: #295BE6;
@@ -283,6 +285,7 @@ a:link{
   position: sticky; /* Keeps the left div sticky (if needed) */
   top: 0; /* Required for sticky positioning */
   padding: 0;
+      border-right: 1px dashed var(--backgound_2);
 }
 
   .right {
@@ -314,21 +317,30 @@ a:link{
     height: 100vh; /* Full viewport height */
     overflow: hidden; /* Prevent container-level scrolling */
   }
-  
-  @media (max-width: 1250px) {
-  
+
+
+
+
+
+@media (max-width: 1250px) {
     .container {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
+
+    .toc-mobile {
+  display: block;
+  }
+
 
     .left {
       background-color: var(--backgound_1);
-      border: 2.5px dashed var(--backgound_2);
+      flex: 0.40;
+      border: 1px dashed var(--backgound_2);
       width: 100%;
       height: fit-content;
       padding-bottom: 10px;
-
     }
+
 
     .right {
     width: 100%;
