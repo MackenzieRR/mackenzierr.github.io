@@ -174,8 +174,10 @@ font-weight: normal;
   overflow: hidden;
   margin: 0px;
   background-image: url('images/allthatiswild.webp');
+  background-position-y:top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+
   color: var(--text_invert);
   margin-left: 23vw; /* same width as left column */
   padding: 3em;
@@ -183,6 +185,7 @@ font-weight: normal;
   height: 100vh;
   font-family: "EB Garamond", serif;
   }
+
 
 .left {
   position: fixed;
@@ -219,7 +222,10 @@ font-weight: normal;
     border: 2.5px dashed var(--background_2);
     padding-bottom: 10px;
     border-bottom: 1px dashed var(--backgound_2);
+  }
 
+  h1 {
+   font-size: 5vw;
   }
 
   .film {
@@ -253,7 +259,7 @@ font-weight: normal;
     margin-left: 0;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
   }
 
 }
